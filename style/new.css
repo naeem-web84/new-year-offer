@@ -54,33 +54,24 @@
 /* new % */
 
 .percentage {
-    width: 770px;
-    height: 775px;
+    width: 900px;
+    height: 800px;
     background-color: rgba(244, 244, 246, 0);
     /* margin: 45%; */
-
+    margin-bottom: 90px;
     display: flex;
-    /* Enable flexbox */
     justify-content: center;
-    /* Center items horizontally */
     align-items: center;
-    /* Center items vertically */
     flex-direction: column;
-    /* Stack items in a column */
-    gap: 20px;
-    /* Add spacing between items */
+    gap: 30px;
 }
 
 .percentage .head {
     display: flex;
-    /* Enable flexbox */
     justify-content: center;
-    /* Center items horizontally */
     align-items: center;
-    /* Align items vertically */
     flex-direction: column;
     gap: 20px;
-    /* Add spacing between items */
 }
 
 .percentage .head h2 {
@@ -96,6 +87,7 @@
 
 .percentage .head h2 {
     font-weight: bold;
+    font-size: 70px;
     color: #FF0000;
 }
 
@@ -107,23 +99,22 @@
 
 .percentage .sub-head h5 {
     font-weight: 100;
+    font-size: 12px;
     color: #FF0000;
 }
 
 .percentage .sub-head h3 {
     font-weight: 800;
+    font-size: 40px;
     color: #09070f;
 }
 
 .percentage .img {
     display: flex;
-    /* Enable flexbox */
     justify-content: center;
-    /* Center the image horizontally */
     align-items: center;
-    /* Center the image vertically */
-    /* width: 400px; */
-    /* Ensure the image adjusts dynamically */
+    width: 600px;
+    height: 450px; 
 }
 
 
